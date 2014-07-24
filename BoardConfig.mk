@@ -63,7 +63,7 @@ TARGET_KERNEL_CONFIG := cm_m8_defconfig
 TARGET_KERNEL_SOURCE := kernel/htc/msm8974
 
 # External apps on SD
-TARGET_EXTERNAL_APPS = sdcard
+TARGET_EXTERNAL_APPS = sdcard1
 
 # QCOM hardware
 BOARD_USES_QCOM_HARDWARE := true
