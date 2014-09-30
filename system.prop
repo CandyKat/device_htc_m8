@@ -48,6 +48,7 @@ ro.qc.sdk.audio.fluencetype=fluence
 tunnel.audio.encode=true
 af.resampler.quality=4
 mm.enable.qcom_parser=37491
+use.voice.path.for.pcm.voip=false
 
 # AV
 media.aac_51_output_enabled=true
