@@ -448,10 +448,6 @@ service map1_del /system/bin/sdptool del 0x1ff17
     disabled
     oneshot
 
-service mpdecision /system/bin/mpdecision --avg_comp
-    class core
-    user root
-    disabled
 
 service netmgrd /system/bin/netmgrd
     class core
@@ -505,10 +501,6 @@ service rmt_storage /system/bin/rmt_storage modem_st1 modem_st2 fsc recovery rad
     class core
     user root
 
-service thermal-engine /system/bin/thermal-engine
-   class main
-   user root
-   group root
 
 service time_daemon /system/bin/time_daemon
    class late_start
