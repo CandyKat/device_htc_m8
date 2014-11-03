@@ -49,6 +49,7 @@ TARGET_CPU_SMP := true
 TARGET_CPU_VARIANT := krait
 TARGET_USE_KRAIT_BIONIC_OPTIMIZATION := true
 
+
 # Charge mode
 BOARD_CHARGING_MODE_BOOTING_LPM := /sys/htc_lpm/lpm_mode
 
