@@ -65,7 +65,7 @@ BOARD_MKBOOTIMG_ARGS := --kernel_offset 0x00008000 --ramdisk_offset 0x02008000 -
 BOARD_CUSTOM_BOOTIMG_MK := device/htc/m8/mkbootimg.mk
 TARGET_KERNEL_CONFIG := cm_m8_defconfig
 TARGET_KERNEL_SOURCE := kernel/htc/msm8974
-TARGET_KERNEL_CUSTOM_TOOLCHAIN := linaro-4.9-a15/bin/arm-eabi-
+# TARGET_KERNEL_CUSTOM_TOOLCHAIN := eabi-a15/bin/arm-eabi-
 
 
 # QCOM hardware
